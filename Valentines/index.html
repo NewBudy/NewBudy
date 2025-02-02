@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Special Valentine's Letter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Envelope Container with First (Animated) Letter -->
+  <div class="letter-image" id="letterContainer">
+    <div class="animated-mail">
+      <div class="back-fold"></div>
+      <div class="letter first-letter">
+        <div class="letter-border"></div>
+        <div class="letter-title"></div>
+        <div class="letter-context"></div>
+        <div class="letter-stamp">
+          <div class="letter-stamp-inner"></div>
+        </div>
+      </div>
+      <div class="top-fold"></div>
+      <div class="body"></div>
+      <div class="left-fold"></div>
+    </div>
+    <div class="shadow"></div>
+    
+    <!-- Second Letter: Main Valentine Message -->
+    <div class="main-letter" id="mainLetter">
+      <h2 class="letter-title" id="mainLetterTitle">Will you be my Valentine?</h2>
+      <div class="image-placeholder">
+        <img src="https://via.placeholder.com/300x150?text=Your+Image+Here" alt="Image Placeholder">
+      </div>
+      <div class="buttons">
+        <button class="yes-btn" id="yesBtn">Yes!</button>
+        <button class="no-btn" id="noBtn">No</button>
+      </div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
